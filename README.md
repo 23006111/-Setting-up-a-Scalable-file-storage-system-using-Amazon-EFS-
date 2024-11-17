@@ -17,6 +17,7 @@ Step 4: Ensure that the EC2 instances can access the file system and share data 
 ## COMMANDS
 # EC2 Instance 1
 
+```
 sudo su
 yum install httpd -y
 yum install -y amazon-efs-utils
@@ -24,8 +25,11 @@ mount -t efs -o tls fs-064645ac116a12816:/ /var/www/html
 cd /var/www/html
 vi file  # Create a file and add some text
 
+```
+
 # EC2 Instance 2
 
+```
 sudo su
 yum install httpd -y
 yum install -y amazon-efs-utils
@@ -33,6 +37,7 @@ mount -t efs -o tls fs-064645ac116a12816:/ /var/www/html
 cd /var/www/html
 ls
 cat file  
+```
 
 ## OUTPUT
 
