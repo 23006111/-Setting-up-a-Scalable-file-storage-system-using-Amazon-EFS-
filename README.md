@@ -1,7 +1,8 @@
- # SETTING UP A SCALABLE FILE STORAGE SYSTEM USING AMAZON ELASTIC FILE SYSTEM
- NAME : Zafreen J
+ ## EXP 4-SETTING UP A SCALABLE FILE STORAGE SYSTEM USING AMAZON ELASTIC FILE SYSTEM
+
+ ## NAME:RAMYA P
  
- REGISTER NO : 212223040252
+ ## REGISTER NO : 212223230168
  
  ## AIM
    To  setting up a scalable file storage system using Amazon Elastic File System (EFS) for two EC2 instances in different availability zones. 
